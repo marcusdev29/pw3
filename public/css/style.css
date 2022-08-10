@@ -1,0 +1,8 @@
+body{
+    background: linear-gradient(purple, gold, black);
+}
+.chave{
+    width: 500px;
+    height: 500px;
+    padding-left: 650px;
+}
