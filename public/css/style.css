@@ -6,3 +6,8 @@ body{
     height: 500px;
     padding-left: 650px;
 }
+.img-fluid{
+    width: 450px;
+    height: 450px;
+    
+}
