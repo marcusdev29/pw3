@@ -12,54 +12,34 @@
 
 </head>
 <body>
-    <header>
-    <nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">Home</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-
-        <li class="nav-item">
-          <a class="nav-link" href="/contato">Contato</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/pedido">Pedido</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/produto">Produto</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/categoria">Categoria</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <header class="home">
+    <div class="main">
+            <div class="logo">
+                <img src="../images/logo2.webp">
+            </div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/contato">Contato</a></li>
+                <li><a href="/pedido">Pedido</a></li>
+                <li><a href="/produto">Produto</a></li>
+                <li><a href="/categoria">Categoria</a></li>
+            </ul>
+     
+        </div>
+        <div class="title">
+            <h1>Venha curtir suas ferias aqui!</h1>
+            <hr>
+        </div>
+        
+        <p class="rodape">Todos direitos reservados Marcus, Diego e Diegão - 2022
+      </p>
     </header>
 
 
     @yield('content')
 
     <footer>
-    
-        <img class="chave1" src="{{url('images/chavedms.jpg')}}">
-        <img src="{{url('images/chavedms.jpg')}}" class="img-fluid" alt="...">
 
-        <div class="card">
-  <div class="card-header">
-    Quote
-  </div>
-  <div class="card-body">
-    <blockquote class="blockquote mb-0">
-      <p>Todos direitos reservados Marcus, Diego e Diegão - 2022
-      </p>
-      <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-    </blockquote>
-  </div>
-</div>
 
     </footer>
 
